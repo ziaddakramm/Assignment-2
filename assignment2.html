@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Word Counter </title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assignment2.css">
+</head>
+
+
+
+<body >
+
+
+    <div class="container" >
+        <header><h1>Interactive Word Counter</h1></header>
+    
+        <div contenteditable="true" id="editableTextArea" class="form-control" > </div>
+ 
+        <p class="word-count mt-2">Word Count: <span id="count">0</span></p>
+
+        <button onclick="countWords()" class="btn btn-primary">Count Words</button>
+    </div>
+    
+
+
+    <script src="assignment2.js"></script>
+    </body>
+
+
+</html>
